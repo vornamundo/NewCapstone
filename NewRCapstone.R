@@ -1,0 +1,12 @@
+library(readr)
+getwd()
+readLines(("~/Data Science/Springboard Course/Capstone Project/capstone-project/UCAS Data/Data/EOC_data_resource_2016-DR2_051_06.csv"), n = 3)
+allfiles <- list.files(path = "C:/Users/AnnaVaughan/Documents/Data Science/Springboard Course/Capstone Project/capstone-project/UCAS Data/Data")
+allfilenames <- substr(allfiles,1,33)
+allcsvfilenames <- allfilenames [1:285]
+testimport <- read_csv("~/Data Science/Springboard Course/Capstone Project/capstone-project/UCAS Data/Data/EOC_data_resource_2016-DR2_001_01.csv", col_names = TRUE, skip = 5)
+names <-substr(filenames,1,33)EOC_data_resource_2016_DR3_027_03 <- read_csv("~/Data Science/Springboard Course/Capstone Project/capstone-project/UCAS Data/Data/EOC_data_resource_2016-DR3_027_03.csv", col_names = TRUE, skip = 5)
+EOC_data_resource_2016_DR3_027_03 <- read_csv("~/Data Science/Springboard Course/Capstone Project/capstone-project/UCAS Data/Data/EOC_data_resource_2016-DR3_027_03.csv", col_names = TRUE, skip = 5)
+View(EOC_data_resource_2016_DR3_027_03)  
+EOC_data_resource_2016_DR3_018_03 <- read_csv("~/Data Science/Springboard Course/Capstone Project/capstone-project/UCAS Data/Data/EOC_data_resource_2016-DR3_018_03.csv", col_names = TRUE, skip = 5)
+EOC_data_resource_2016_DR4_005_03 <- read_csv("~/Data Science/Springboard Course/Capstone Project/capstone-project/UCAS Data/Data/EOC_data_resource_2016-DR4_005_03.csv", col_names = TRUE, skip = 5)
